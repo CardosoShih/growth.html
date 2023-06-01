@@ -1,0 +1,44 @@
+
+
+img {
+    height: 250px;
+    width: 230px;
+  float: inline-start;
+   
+}
+ 
+body {
+    background-image:url(fro\ rosa.jpeg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: ;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'EB Garamond',sans-serif;
+    color:rgb(155, 189, 44)
+}
+
+h2 {
+    font-family: 'Caveate Family',sans-serif;
+}
+
+ * {
+    color:rgb(250, 249, 202)
+ }
+
+
+
+
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans&family=Merriweather:ital,wght@1,300&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Josefin+Sans&family=Pacifico&family=Poppins:wght@200&display=swap" rel="stylesheet">
