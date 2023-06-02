@@ -20,24 +20,38 @@ h1 {
     text-shadow: 2px 2px 8px #000000;
     font-size: 2.5rem;
     font-family: 'EB Garamond',sans-serif;
-    color:rgb(155, 189, 44)
+    color:rgb(224, 241, 167)
 }
 
 h2 {
     text-align: center;
     font-size: 1.9rem;
     font-family: 'Caveate Family',sans-serif;
+    text-shadow: 2px 2px #8dd54d;
 }
 
  * {
     color:	#070a43
  }
 
-#about {
-    color: aliceblue;
+#ha {
+    color: rgb(255, 254, 254);
+    text-shadow: 2px 2px #000000;
+    font-size: 1.2rem;
 }
 
+#sun {
+    font-size: 1.2rem;
+    color:rgb(126, 170, 92);
+    font-family: 'Caveate Family',sans-serif;
+    
+}
 
+  #meme {
+    height: 360px;
+    width: 320px;
+       float:inline-end
+  }
 
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
