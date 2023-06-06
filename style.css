@@ -35,7 +35,7 @@ h2 {
  }
 
 #ha {
-    color: rgb(255, 254, 254);
+    color: rgb(255, 255, 255);
     text-shadow: 2px 2px #000000;
     font-size: 1.2rem;
 }
@@ -46,6 +46,14 @@ h2 {
     font-family: 'Caveate Family',sans-serif;
     
 }
+
+.menun{
+    padding: 10px;
+      background-color:transparent;
+      display: flex;
+      gap: 20px;
+      flex-direction: row-reverse;
+ }
 
   #meme {
     height: 360px;
