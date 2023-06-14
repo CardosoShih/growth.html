@@ -7,43 +7,65 @@ img {
 }
  
 body {
-   background-image:url(yellow.jpg) ;
-   background-size: 2520px;
-   background-repeat: repeat;
-    width: 2500;
-    height: 3000px;
+   background-color:#eee2bd;
 }
 
 h1 {
 
     text-align: center;
-    text-shadow: 2px 2px 8px #000000;
-    font-size: 2.5rem;
+    text-shadow: 2px 2px 8px #40513B;
+    font-size: 2.7rem;
     font-family: 'EB Garamond',sans-serif;
-    color:rgb(224, 241, 167)
+    color:#a1f17a
+}
+.titu {
+    color:#91D18B
 }
 
 h2 {
     text-align: center;
-    font-size: 1.9rem;
+    font-size: 2.1rem;
+    color:#e45f9b;
     font-family: 'Caveate Family',sans-serif;
-    text-shadow: 2px 2px #8dd54d;
+    text-shadow: 2px 2px #4a4747;
 }
 
+h3 {
+    text-align: center;
+    font-family: 'EB Garamond',sans-serif;
+    font-size: 0.9rem;
+   line-height: .6;    
+
+}
+
+#p {
+    text-align: center;
+    font-family: 'EB Garamond',sans-serif;
+    font-size: 0.9rem;
+   line-height: .5;    
+
+}
+
+
  * {
-    color:	#070a43
+    color:	#40513B
  }
 
+.bu {
+    background-color: #;
+}
+
 #ha {
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px #000000;
-    font-size: 1.2rem;
+    color:	#48d51d
+    text-shadow: 2px 2px #ffffff;
+    font-size: 1.3rem;
 }
 
 #sun {
     font-size: 1.2rem;
-    color:rgb(126, 170, 92);
+    color:	#440047
     font-family: 'Caveate Family',sans-serif;
+    text-align: center;
     
 }
 
@@ -64,17 +86,25 @@ h2 {
 }
 
 .menum > a {
-    color: #e7d972cc;
+    color: #F6C391;
 } 
 
 .menun > a {
-   color: #000000cc;
+   color: #000000;
 } 
 
   #meme {
-    height: 360px;
-    width: 320px;
-       float:inline-end
+ 
+        height: 300px;
+       width: 250px;
+       float:inline-end;
+    
+  }
+
+  .image-tati {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
  <link rel="preconnect" href="https://fonts.googleapis.com">
