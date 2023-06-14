@@ -7,16 +7,19 @@ img {
 }
  
 body {
-   background-color:#eee2bd;
-}
+    background-image:url("ike.jpg");
+    background-size: cover; /* Adjust the image size to cover the entire background */
+    background-position: center; /* Position the image at the center */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+  }
 
 h1 {
 
     text-align: center;
-    text-shadow: 2px 2px 8px #40513B;
+    text-shadow: 2px 2px 8px #000000;
     font-size: 2.7rem;
     font-family: 'EB Garamond',sans-serif;
-    color:#a1f17a
+    color:#deaf23
 }
 .titu {
     color:#91D18B
@@ -51,8 +54,9 @@ h3 {
     color:	#40513B
  }
 
-.bu {
-    background-color: #;
+.bu h3 {
+    font-size: 18px;
+    line-height: 1.2;    
 }
 
 #ha {

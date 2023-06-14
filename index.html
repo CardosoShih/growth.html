@@ -1,64 +1,114 @@
+<link rel="stylesheet" href="style.css" />
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title> Growth!
-</title></head>
-<hr/>
-<link rel="stylesheet" href="style.css" />
-<hr/>
-<div class="menun">
-    <a href="about.html" id="ha">About Me</a>
- <p></p>
-<a href="Contact me.html" id="ha">Contact me here!</a>
-</div>
+    <meta charset="utf-8">
+    <title>Growth!</title>
+    <style>
+        /* CSS styles */
+        .image-section {
+            display: none;
+        }
+    </style>
+    <script>
+        // JavaScript code
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get the headings and image sections
+            const flowersHeading = document.getElementById("flowers-heading");
+            const herbsHeading = document.getElementById("herbs-heading");
+            const succulentsHeading = document.getElementById("succulents-heading");
+            const flowersSection = document.getElementById("flowers-section");
+            const herbsSection = document.getElementById("herbs-section");
+            const succulentsSection = document.getElementById("succulents-section");
 
-<header>
-    <hr>
-    <h1>Embrace the Journey </h1>
-    <h2 class="titu">Trusting in the Timing of Life</h2>
+            // Show the respective image section when hovering over the heading
+            flowersHeading.addEventListener("mouseover", function() {
+                flowersSection.style.display = "block";
+            });
+            flowersHeading.addEventListener("mouseout", function() {
+                flowersSection.style.display = "none";
+            });
 
-<div class="bu">
-    <h3>Life can be tough at times, and we've all experienced those moments when it feels like everything is against us.</h3>
-    <h3> But here's a gentle reminder: everything happens on the right time.</h3> 
-   <h3> This website is a space created to inspire and uplift, both for myself and for you, with pictures that I took to show how life is worth to be lived.</h3>
-    <h3>It serves as a reminder to embrace the journey and trust that things will fall into place when the time is right.</h3>
-    <h3> So, take a deep breath, gather your strength, and remember that all we need to do is our best.</h3>
-    <h3>Today is a new opportunity to shine. Seize the day and give it your all!</h3></div>
-</header>
+            herbsHeading.addEventListener("mouseover", function() {
+                herbsSection.style.display = "block";
+            });
+            herbsHeading.addEventListener("mouseout", function() {
+                herbsSection.style.display = "none";
+            });
+
+            succulentsHeading.addEventListener("mouseover", function() {
+                succulentsSection.style.display = "block";
+            });
+            succulentsHeading.addEventListener("mouseout", function() {
+                succulentsSection.style.display = "none";
+            });
+        });
+    </script>
+</head>
 <body>
-<br />
-<hr>
-<h2>Flowers</h2>
+    <div class="menun">
+        <a href="about.html" id="ha">About Me</a>
+        <a href="Contact me.html" id="ha">Contact me here!</a>
+    </div>
 
-<img src="purple-flowers.jpeg" height="250" alt="photo of purple and white flowers"></a>
-<img src="fro rosa.jpeg"alt="pink flower from a vert close view"></a>
-<img src="camomila.jpeg" alt="chamomiles flowers"></a>
-<img src="rose.jpg" alt="a red rose"></a>
-<img src="fro.jpeg"alt="Purple Orchids"></a>
-<br />
-<h2>Herbs</h2>
-<img src="lady.jpg" alt="Little Lady Bug at mint."></a>
-<img src="thyme.jpeg" alt="thyme"></a>
-<img src="sage.jpeg" alt="sage flowers"></a>
+    <header>
+        <hr>
+        <h1>Embrace the Journey</h1>
+        <h2 class="titu">Trusting in the Timing of Life</h2>
+        <div class="bu">
+            <h3>Life can be tough at times, and we've all experienced those moments when it feels like everything is against us.</h3>
+            <h3>But here's a gentle reminder: everything happens at the right time.</h3>
+            <h3>This website is a space created to inspire and uplift, both for myself and for you, with pictures that I took to show how life is worth living.</h3>
+            <h3>It serves as a reminder to embrace the journey and trust that things will fall into place when the time is right.</h3>
+            <h3>So, take a deep breath, gather your strength, and remember that all we need to do is our best.</h3>
+            <h3>Today is a new opportunity to shine. Seize the day and give it your all!</h3>
+        </div>
+    </header>
 
-<p>
-<hr>
+    <body>
+        <br />
+        <hr>
+        <h2 id="flowers-heading">Flowers</h2>
+        <div id="flowers-section" class="image-section">
+            <img src="purple-flowers.jpeg" height="250" alt="photo of purple and white flowers">
+            <img src="fro rosa.jpeg" alt="pink flower from a very close view">
+            <img src="camomila.jpeg" alt="chamomile flowers">
+            <img src="rose.jpg" alt="a red rose">
+            <img src="fro.jpeg" alt="Purple Orchids">
+        </div>
 
-<h2>Succulents</h2>
-<img src="sucsuc.jpeg" alt="succulent"></a>
-<img src="suc.jpeg"alt="succulent"></a>
+        <h2 id="herbs-heading">Herbs</h2>
+        <div id="herbs-section" class="image-section">
+            <img src="lady.jpg" alt="Little Lady Bug at mint">
+            <img src="thyme.jpeg" alt="thyme">
+            <img src="sage.jpeg" alt="sage flowers">
+        </div>
 
-<hr>
-<div class="menun">
-    <a href="./about.html">About Me</a>
-  <a href="./Contact me.html">Contact me here!</a>
-  <a href="index.html">Home</a>  
-  </div>
-<p>
-   <h4 id="ha"> © Tatiane Cardoso Shih</h4>
-</p>
-</body>
-</html>
+        <h2 id="succulents-heading">Succulents</h2>
+        <div id="succulents-section" class="image-section">
+            <img src="sucsuc.jpeg" alt="succulent">
+            <img src="suc.jpeg" alt="succulent">
+        </div>
+
+        <hr>
+        <footer>
+            <div class="menun">
+                <a href="./about.html">About Me</a>
+                <a href="./Contact me.html">Contact me here!</a>
+                <a href="index.html">Home</a>
+            </div>
+    
+            <p>
+                <h4 id="ha">© Tatiane Cardoso Shih</h4>
+            </p>
+        </footer>
+    
+    </body>
+    
+    </html>
+
+
+
+
 
 
